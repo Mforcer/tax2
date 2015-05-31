@@ -2,7 +2,7 @@
 layout: post
 published: true
 
-title: "Single Ledger Cloud Accounting"
+title: "Business Plans, part 1"
 subtitle:
 img:
 Author: "Michael Schlederer"
