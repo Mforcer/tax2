@@ -1,0 +1,11 @@
+description: "Tax2"
+publisher: "Tax2 Pty Ltd"
+keywords: "Tax"
+title: "Tax2"
+
+pop-img: "tax2.svg"
+
+permalink: pretty
+
+gems:
+  - jekyll-redirect-from
