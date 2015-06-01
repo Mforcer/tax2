@@ -19,4 +19,4 @@ Michael also currently acts as the local agent for foreign companies listed on t
 
 Michael holds a Bachelor degree in Commerce (BCom), is a Chartered Accountant with the Institute of Chartered Accountants in Australia (CA) and is a Chartered Tax Adviser with the Taxation Institute of Australia (TIA). He is currently studying towards a Graduate Diploma of Applied Corporate Governance with the Governance Institute of Australia.
 
-[<i class="fa fa-linkedin-square"></i>](//au.linkedin.com/in/michaelschlederer/) [<i class="fa fa-twitter-square"></i>](//twitter.com/MichaelSchled)
+[<i class="fa fa-linkedin-square fa-3x"></i>](//au.linkedin.com/in/michaelschlederer/) [<i class="fa fa-twitter-square fa-3x"></i>](//twitter.com/MichaelSchled)
