@@ -3,11 +3,9 @@ layout: default
 published: true
 
 title: "Michael Schlederer"
-subtitle:
+subtitle: "BCom CA CTA"
 lead: "Good with Numbers, Solves Problems."
 ---
-
-**BCom CA CTA**
 
 Michael solves problems. Applying his accounting and tax knowledge and his experience with business and investing, Michael believes in taking the time to understand the unique circumstances of each of his clients to offer practical solutions.
 
