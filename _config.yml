@@ -25,6 +25,8 @@ biz_email: "email@schlederer.com.au"
 
 pop-img: "satax.svg"
 
+paginate: 5
+
 permalink: pretty
 
 gems:
