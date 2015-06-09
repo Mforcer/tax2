@@ -12,7 +12,7 @@ lead: "Tax &amp; Accounting for Entrepreneurs &amp; Investors"
   <div class="col-md-8 col-md-offset-2">
     <a href="{{ post.url }}">{{ post.title }}</a>
     {% if post.img %}{{ post.img }}{% endif %}
-    {{ post }}
+    {{ post.excerpt }}
     {{post.date | date_to_string}} {{post.author}}{{post.Author}}
   </div>
 </div>
