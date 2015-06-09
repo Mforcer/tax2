@@ -5,7 +5,7 @@ published: true
 title: "Mitigating Income Risk"
 subtitle:
 img:
-Author: "Michael Schlederer"
+author: "Michael Schlederer"
 ---
 
 There is no denying that many retail businesses have experienced significant challenges over the past decade with the rise of low-margin, low-cost online businesses. The need to adjust costs and offer innovation in client service to meet the challenge of online competition has become an ongoing area of focus to stay profitable.
