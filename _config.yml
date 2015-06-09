@@ -1,9 +1,29 @@
-description: "Tax2"
-publisher: "Tax2 Pty Ltd"
-keywords: "Tax"
-title: "Tax2"
+description: "Schlederer Associates"
+publisher: "Schlederer Associates Pty Ltd"
+keywords: "Tax, Business, Investors, Entrepreneurs, refund, deduction, income, capital, gains, property, invest, negative gearing"
+title: "Schlederer Associates"
 
-pop-img: "tax2.svg"
+biz_name: "Schlederer&nbsp;Associates"
+biz_desc: "Chartered&nbsp;Accountants"
+biz_desc2: "Tax&nbsp;&amp;&nbsp;Business&nbsp;Services"
+biz_abn: "63&nbsp;133&nbsp;191&nbsp;572"
+
+biz_addr_1:
+biz_addr_2:
+biz_addr_city:
+biz_addr_state:
+biz_addr_code:
+
+biz_post_box: "GPO&nbsp;Box&nbsp;1633"
+biz_post_city: "Sydney"
+biz_post_state: "NSW"
+biz_post_code: "2001"
+
+biz_phone: "(02)&nbsp;9262&nbsp;2822"
+biz_fax: "(02)&nbsp;9262&nbsp;3912"
+biz_email: "email@schlederer.com.au"
+
+pop-img: "satax.svg"
 
 permalink: pretty
 
