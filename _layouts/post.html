@@ -3,9 +3,12 @@ layout: default
 ---
 
 <div class="row">
-  <div class="col-md-8 col-md-push-2">
+  <div class="col-md-8 blog-main">
     {% if page.img %}{{ page.img }}{% endif %}
     {{ content }}
     <p class="post-date small">~{{page.date | date_to_string}}</p>
+  </div>
+  <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+    {% include contact.html %}
   </div>
 </div>
