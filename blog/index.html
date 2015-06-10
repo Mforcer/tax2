@@ -17,18 +17,20 @@ lead:
     {{ post.content }}
     <hr>
     {% endfor %}
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="/{{paginator.previous_page}}" class="previous">Previous</a>
-      {% else %}
-        <span class="previous">Previous</span>
-      {% endif %}
-      {% if paginator.next_page %}
-        <a href="/{{paginator.next_page}}" class="next ">Next</a>
-      {% else %}
-        <span class="next ">Next</span>
-      {% endif %}
-    </div>
+    <nav>
+      <ul class="pager">
+        <li class="previous">
+          {% if paginator.previous_page %}<a href="/blog/{{paginator.previous_page}}" aria-label="Previous">{% endif %}
+            <span aria-hidden="true">&laquo; Previous</span>
+            {% if paginator.previous_page %}</a>{% endif %}
+        </li>
+        <li class="next">
+          {% if paginator.next_page %}<a href="/blog/{{paginator.next_page}}" aria-label="Next">{% endif %}
+            <span aria-hidden="true">Next &raquo;</span>
+            {% if paginator.next_page %}</a>{% endif %}
+        </li>
+      </ul>
+    </nav>
   </div>
   <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
     {% include contact.html %}
