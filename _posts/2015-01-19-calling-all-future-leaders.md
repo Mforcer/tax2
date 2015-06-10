@@ -2,7 +2,7 @@
 layout: post
 published: true
 
-title: "Calling all future business leaders"
+title: "Calling all future leaders"
 subtitle:
 img:
 Author: "Michael Schlederer"
