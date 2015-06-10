@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: team
 published: true
 
 title: "Michael Schlederer"
