@@ -1,9 +1,14 @@
 <footer>
-     <div class="container">
-
-          <hr>
-
-          <p class="small"><a href="mailto:{{site.biz_email}}">contact</a> | <a href="/legal/">legal</a> &copy;&nbsp;{{ site.biz_name }}</p>
-
-     </div>
+  <hr>
+  <div class="container">
+    <div class="social">
+      <ul class="social-buttons">
+        <li class="linkedin-btn"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/Share"></script></li>
+        <li class="tweet-btn"><a href="https://twitter.com/intent/tweet" class="twitter-share-button" data-url="{{ site.page}}" data-via="MichaelSchled">Tweet</a></li>
+      </ul>
+    </div>
+    {% include contact.html %}
+    <p class="small"><a href="mailto:{{site.biz_email}}">contact</a> | <a href="/legal/">legal</a> &copy;&nbsp;{{ site.biz_name }}</p>
+  </div>
 </footer>
