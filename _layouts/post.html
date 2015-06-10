@@ -19,7 +19,23 @@ layout: default
     <div class="social pull-right">
       <ul class="list-unstyled">
         <li class="linkedin-btn"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script><script type="in/Share"></script></li>
-        <li class="tweet-btn"><a href="https://twitter.com/intent/tweet" class="twitter-share-button" data-url="{{ site.page}}" data-via="MichaelSchled">Tweet</a></li>
+        <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+      <li class="tweet-btn"><a href="https://twitter.com/intent/tweet" class="twitter-share-button" data-url="{{ site.page}}" data-via="MichaelSchled">Tweet</a></li>
       </ul>
     </div>
     <hr>
