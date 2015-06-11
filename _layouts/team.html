@@ -7,7 +7,7 @@ layout: default
     {{ content }}
   </div>
   <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-    {% if page.img %}{{ page.img }}{% endif %}
+    {% if page.img %}<img class="img-responsive center-block" src="//cdn.schlederer.com.au/img/team/{{ page.img }}" alt="team">{% endif %}
     {% include contact.html %}
   </div>
 </div>
