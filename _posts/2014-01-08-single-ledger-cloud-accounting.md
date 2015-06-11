@@ -4,7 +4,7 @@ published: true
 
 title: "Single Ledger Cloud Accounting"
 subtitle:
-img:
+img: single-ledger-cloud-accounting.jpg
 Author: "Michael Schlederer"
 ---
 
