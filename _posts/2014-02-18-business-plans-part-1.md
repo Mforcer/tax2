@@ -4,7 +4,7 @@ published: true
 
 title: "Business Plans, part 1"
 subtitle:
-img: 2014-02-18-business-plans-part-1.jpg
+img: business-plans-part-1.jpg
 Author: "Michael Schlederer"
 ---
 
