@@ -27,9 +27,6 @@ pop-img:
 
 permalink: pretty
 
-permalink:
-  - post: /blog/:path/
-    
 paginate: 5
 paginate_path: "/blog/:num/"
 
