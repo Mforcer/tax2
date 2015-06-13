@@ -1,13 +1,14 @@
-<div id="quote" class="cycle-slideshow" data-cycle-speed="2000" data-cycle-timeout="6000" data-cycle-slides="> blockquote" data-cycle-loader=true data-cycle-progressive="#quotes">
+<div id="quote" class="cycle-slideshow" data-cycle-speed="2000" data-cycle-timeout="6000" data-cycle-slides="> blockquote" data-cycle-fx="fade">
   <blockquote class="first">
   If you know the enemy and know yourself, you need not fear the result of a hundred battles.
 If you know yourself but not the enemy, for every victory gained you will also suffer a defeat.
-If you know neither the enemy nor yourself, you will succumb in every battle.
+If you know neither the enemy nor yourself, you will succumb in every battle.<br>
 <span class="small">Sun Tzu</span>
 </blockquote>
   <script id="quotes" type="text/cycle">
-  {% for quote in site.data.quotes %}
-  <blockquote>quotes.quote <span class="small">quotes.author</span></blockquote>
+  {% for q in site.data.quotes %}
+  <blockquote>q.quote<br>
+  <span class="small">q.author</span></blockquote>
   {% endfor %}
   </script>
 </div>
