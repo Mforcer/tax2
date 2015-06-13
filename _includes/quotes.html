@@ -1,0 +1,16 @@
+<div id="quote" class="cycle-slideshow" data-cycle-speed="2000" data-cycle-timeout="6000" data-cycle-slides="> blockquote" data-cycle-loader=true data-cycle-progressive="#quotes">
+  <blockquote class="first">
+  If you know the enemy and know yourself, you need not fear the result of a hundred battles.
+If you know yourself but not the enemy, for every victory gained you will also suffer a defeat.
+If you know neither the enemy nor yourself, you will succumb in every battle.
+<p class="small">Sun Tzu</p>
+</blockquote>
+  <script id="quotes" type="text/cycle">
+  {% for quote in site.data.quotes %}
+  <blockquote>
+  quote.quote
+  <p class="small">quote.author</p>
+  </blockquote>
+  {% endfor %}
+  </script>
+</div>
