@@ -1,6 +1,10 @@
-<div id="quote" class="cycle-slideshow" data-cycle-speed="2000" data-cycle-timeout="6000" data-cycle-slides="> blockquote" data-cycle-fx="fade">
-  {% for q in site.data.quotes %}
-  <blockquote>{{q.quote}}<br>
-  <span class="small">{{q.author}}</span></blockquote>
-  {% endfor %}
+<div class="row">
+  <div class="col-md-8 col-md-offset-2 text-center">
+    <div id="quote" class="cycle-slideshow" data-cycle-speed="2000" data-cycle-timeout="6000" data-cycle-slides="> blockquote" data-cycle-fx="fade">
+      {% for q in site.data.quotes %}
+      <blockquote>{{q.quote}}<br>
+      <span class="small">{{q.author}}</span></blockquote>
+      {% endfor %}
+    </div>
+  </div>
 </div>
