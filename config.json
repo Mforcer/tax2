@@ -393,6 +393,7 @@
     "navbar.less",
     "pager.less",
     "thumbnails.less",
+    "alerts.less",
     "progress-bars.less",
     "media.less",
     "list-group.less",
@@ -403,10 +404,9 @@
     "dropdowns.less"
   ],
   "js": [
-    "button.js",
     "dropdown.js",
     "collapse.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=e27852d587a7a8d32806"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=bc11e0913d388327b56f"
 }

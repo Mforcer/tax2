@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=e27852d587a7a8d32806)
- * Config saved to config.json and https://gist.github.com/e27852d587a7a8d32806
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=bc11e0913d388327b56f)
+ * Config saved to config.json and https://gist.github.com/bc11e0913d388327b56f
  */
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -3708,6 +3708,81 @@ a.thumbnail.active {
 .thumbnail .caption {
   padding: 9px;
   color: #c8c8c8;
+}
+.alert {
+  padding: 15px;
+  margin-bottom: 22px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.alert .alert-link {
+  font-weight: bold;
+}
+.alert > p,
+.alert > ul {
+  margin-bottom: 0;
+}
+.alert > p + p {
+  margin-top: 5px;
+}
+.alert-dismissable,
+.alert-dismissible {
+  padding-right: 35px;
+}
+.alert-dismissable .close,
+.alert-dismissible .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+.alert-success {
+  background-color: #62c462;
+  border-color: #62bd4f;
+  color: #ffffff;
+}
+.alert-success hr {
+  border-top-color: #55b142;
+}
+.alert-success .alert-link {
+  color: #e6e6e6;
+}
+.alert-info {
+  background-color: #5bc0de;
+  border-color: #3dced8;
+  color: #ffffff;
+}
+.alert-info hr {
+  border-top-color: #2ac7d2;
+}
+.alert-info .alert-link {
+  color: #e6e6e6;
+}
+.alert-warning {
+  background-color: #f89406;
+  border-color: #df6105;
+  color: #ffffff;
+}
+.alert-warning hr {
+  border-top-color: #c65605;
+}
+.alert-warning .alert-link {
+  color: #e6e6e6;
+}
+.alert-danger {
+  background-color: #ee5f5b;
+  border-color: #ec445b;
+  color: #ffffff;
+}
+.alert-danger hr {
+  border-top-color: #e92d47;
+}
+.alert-danger .alert-link {
+  color: #e6e6e6;
 }
 @-webkit-keyframes progress-bar-stripes {
   from {
