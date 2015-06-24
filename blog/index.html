@@ -19,7 +19,7 @@ lead:
     <nav>
       <ul class="pager">
         <li class="previous">
-          {% if paginator.previous_page %}<a href="/blog/{{paginator.previous_page}}" aria-label="Previous">{% endif %}
+          {% if paginator.previous_page %}<a href="/blog/{% if paginator.page <> 2 %}{{paginator.previous_page}}{% endif %}" aria-label="Previous">{% endif %}
             <span aria-hidden="true">&laquo; Previous</span>
             {% if paginator.previous_page %}</a>{% endif %}
         </li>
