@@ -23,21 +23,21 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-SchledAssoc_Logo .path1:before {
+.icon-SchledAssoc .path1:before {
 	content: "\e600";
 	color: rgb(245, 129, 19);
 }
-.icon-SchledAssoc_Logo .path2:before {
+.icon-SchledAssoc .path2:before {
 	content: "\e601";
 	margin-left: -1.283203125em;
 	color: rgb(77, 136, 181);
 }
-.icon-SchledAssoc_Logo .path3:before {
+.icon-SchledAssoc .path3:before {
 	content: "\e602";
 	margin-left: -1.283203125em;
 	color: rgb(101, 169, 216);
 }
-.icon-SchledAssoc_Logo .path4:before {
+.icon-SchledAssoc .path4:before {
 	content: "\e603";
 	margin-left: -1.283203125em;
 	color: rgb(114, 179, 141);
