@@ -31,7 +31,7 @@
 
 <body>
 
-{% if page.url == empty %}
+{% if page.url|remove:'index.html' == empty %}
 {% include hello-bar.html %}
 {% endif %}
 
