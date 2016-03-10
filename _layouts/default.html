@@ -31,8 +31,8 @@
 
 <body>
 
-{% if page.url == / %}
-   {% include hello-bar.html %}
+{% if page.url == empty %}
+{% include hello-bar.html %}
 {% endif %}
 
 {% include navbar.html %}
