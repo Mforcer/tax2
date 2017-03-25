@@ -399,13 +399,11 @@
     "panels.less",
     "responsive-embed.less",
     "wells.less",
-    "component-animations.less",
-    "dropdowns.less"
+    "component-animations.less"
   ],
   "js": [
-    "dropdown.js",
     "collapse.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=a6b370a4004ba9da7977"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=1c86f5729857d733d9652484293e5dcb"
 }
