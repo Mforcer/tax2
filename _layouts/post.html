@@ -2,36 +2,17 @@
 layout: default
 ---
 
+{% if page.img %}
+<img class="img-fluid center-block" src="//cdn.schlederer.com.au/img/blog/{{ page.img }}">
+{% endif %}
+
 <div class="row">
-  <div class="col-md-8 blog-main">
-    {% if page.img %}<img class="img-responsive center-block" src="//cdn.schlederer.com.au/img/blog/{{ page.img }}">{% endif %}
+  <article class="col-md-9">
     {{ content }}
-    <p class="post-date small text-right">{{page.date | date_to_string}}</p>
-    <div class="social">
-      <ul class="list-inline list-unstyled">
-        <li class="linkedin-btn"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script><script type="in/Share"></script></li>
-<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
+    <p class="post-date small text-end">{{page.date | date_to_string}}</p>
 
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
-
-  return t;
-}(document, "script", "twitter-wjs"));</script>
-        <li class="tweet-btn"><a href="https://twitter.com/intent/tweet" class="twitter-share-button" data-url="{{ site.page}}" data-via="MichaelSchled">Tweet</a></li>
-      </ul>
-    </div>
-
-  </div>
-  <div class="col-md-3 col-md-offset-1 blog-sidebar">
+  </article>
+  <div id="blog-sidebar" class="col-md-3">
     <p class="lead">Recent Posts</p>
     {% for post in site.posts %}
     <p class="post-title">
