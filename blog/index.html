@@ -7,7 +7,7 @@ lead:
 ---
 
 <div class="row">
-  <div id="blog-main" class="col-md-9">
+  <article id="blog-main" class="col-md-9">
     {% for post in paginator.posts %}
     <h2 class="post-title"><i class="fa fa-bullhorn text-info"></i> <a href="{{ post.url }}">{{ post.title }}</a></h2>
     {% if post.subtitle %}<p class="lead">{{ post.subtitle }}</p>{% endif %}
@@ -15,19 +15,19 @@ lead:
     {{ post.content }}
     <hr>
     {% endfor %}
-    <nav id="pager" class="justify-content-between">
-        <button type="button" class="btn btn-primary btn-sm">
-          {% if paginator.previous_page %}<a href="/blog/{% if paginator.page <> 2 %}{{paginator.previous_page}}{% endif %}" aria-label="Previous">{% endif %}
-            <span class="page-link" aria-hidden="true">&laquo; Previous</span>
+      <ul id="pager" class="nav justify-content-between">
+        <li class="nav-item">
+          {% if paginator.previous_page %}<a class="nav-link" href="/blog/{% if paginator.page <> 2 %}{{paginator.previous_page}}{% endif %}" aria-label="Previous">{% endif %}
+            <span aria-hidden="true">&laquo; Previous</span>
             {% if paginator.previous_page %}</a>{% endif %}
-          </button>
-        <button type="button" class="btn btn-primary btn-sm">
-          {% if paginator.next_page %}<a href="/blog/{{paginator.next_page}}" aria-label="Next">{% endif %}
-            <span class="page-link" aria-hidden="true">Next &raquo;</span>
+        </li>
+        <li class="nav-item">
+          {% if paginator.next_page %}<a class="nav-link" href="/blog/{{paginator.next_page}}" aria-label="Next">{% endif %}
+            <span aria-hidden="true">Next &raquo;</span>
             {% if paginator.next_page %}</a>{% endif %}
-          </button>
-    </nav>
-  </div>
+        </li>
+      </ul>
+  </article>
   <aside id="blog-sidebar" class="col-sm-3">
     {% include contact.html %}
   </aside>
