@@ -16,15 +16,15 @@ lead:
     <hr>
     {% endfor %}
     <nav>
-      <ul class="pager">
-        <li class="previous">
+      <ul class="pagination">
+        <li class="page-item">
           {% if paginator.previous_page %}<a href="/blog/{% if paginator.page <> 2 %}{{paginator.previous_page}}{% endif %}" aria-label="Previous">{% endif %}
-            <span aria-hidden="true">&laquo; Previous</span>
+            <span class="page-link" aria-hidden="true">&laquo; Previous</span>
             {% if paginator.previous_page %}</a>{% endif %}
         </li>
-        <li class="next">
+        <li class="page-item">
           {% if paginator.next_page %}<a href="/blog/{{paginator.next_page}}" aria-label="Next">{% endif %}
-            <span aria-hidden="true">Next &raquo;</span>
+            <span class="page-link" aria-hidden="true">Next &raquo;</span>
             {% if paginator.next_page %}</a>{% endif %}
         </li>
       </ul>
