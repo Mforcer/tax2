@@ -1,6 +1,5 @@
 ---
 layout: post
-published: true
 
 title: "Single Ledger Cloud Accounting"
 subtitle:
@@ -30,4 +29,4 @@ As the Xero user base has grown, I have also noticed a significant increase in t
 
 It is this fast growing network of Xero partners that makes easy the choice of Xero as the cloud based accounting system. It is easy for a business to extract its accounting data and move to another system. It is now easy to find another bookkeeper or even a new accountant.
 
-While Xero is not the only cloud based accounting system the DFK Richard Hill team and I work with, it is our preferred.
+While Xero is not the only cloud based accounting system the Schlederer Associates team and I work with, it is our preferred.
