@@ -1,6 +1,5 @@
 ---
 layout: team
-published: true
 
 title: "Michael Schlederer"
 subtitle: "BCom CA CTA"
@@ -17,6 +16,6 @@ Michael has hands-on experience as the finance manager for a top-50 ASX listed c
 
 Michael also currently acts as the local agent for foreign companies listed on the ASX, ensuring that their compliance requirements are met.
 
-Michael holds a Bachelor degree in Commerce (BCom), is a Chartered Accountant with the Institute of Chartered Accountants in Australia (CA) and is a Chartered Tax Adviser with the Taxation Institute of Australia (TIA). He is currently studying towards a Graduate Diploma of Applied Corporate Governance with the Governance Institute of Australia.
+Michael holds a Bachelor degree in Commerce (BCom), is a Chartered Accountant with the Institute of Chartered Accountants in Australia (CA) and is a Chartered Tax Adviser with the Taxation Institute of Australia (TIA).
 
 [<i class="fa fa-linkedin-square fa-3x"></i>](//au.linkedin.com/in/michaelschlederer/) [<i class="fa fa-twitter-square fa-3x"></i>](//twitter.com/MichaelSchled)
