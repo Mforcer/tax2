@@ -17,14 +17,18 @@ lead:
     {% endfor %}
       <ul id="pager" class="nav justify-content-between">
         <li class="nav-item">
-          {% if paginator.previous_page %}<a class="nav-link" href="/blog/{% if paginator.page <> 2 %}{{paginator.previous_page}}{% endif %}" aria-label="Previous">{% endif %}
-            <span aria-hidden="true">&laquo; Previous</span>
-            {% if paginator.previous_page %}</a>{% endif %}
+          {% if paginator.previous_page %}
+          <a class="nav-link" href="/blog/{% if paginator.page <> 2 %}{{paginator.previous_page}}{% endif %}">&laquo; Previous</a>
+          {% else %}
+          <span class="nav-link disabled">&laquo; Previous</span>
+          {% endif %}
         </li>
         <li class="nav-item">
-          {% if paginator.next_page %}<a class="nav-link" href="/blog/{{paginator.next_page}}" aria-label="Next">{% endif %}
-            <span aria-hidden="true">Next &raquo;</span>
-            {% if paginator.next_page %}</a>{% endif %}
+          {% if paginator.next_page %}
+          <a class="nav-link" href="/blog/{{paginator.next_page}}">Next &raquo;</a>
+          {% else %}
+          <span class="nav-link disabled">Next &raquo;</span>
+          {% endif %}
         </li>
       </ul>
   </article>
