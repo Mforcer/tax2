@@ -2,17 +2,14 @@
 layout: default
 ---
 
-{% if page.img %}
-<img class="img-fluid center-block" src="//cdn.schlederer.com.au/img/blog/{{ page.img }}">
-{% endif %}
-
 <div class="row">
   <article class="col-md-9">
+    {% if page.img %} <img class="img-fluid d-block mx-auto" src="//cdn.schlederer.com.au/img/blog/{{ page.img }}"> {% endif %}
     {{ content }}
     <p class="post-date small text-end">{{page.date | date_to_string}}</p>
 
   </article>
-  <div id="blog-sidebar" class="col-md-3">
+  <aside id="blog-sidebar" class="col-md-3">
     <p class="lead">Recent Posts</p>
     {% for post in site.posts %}
     <p class="post-title">
@@ -21,5 +18,5 @@ layout: default
     {% endfor %}
     <hr>
     {% include contact.html %}
-  </div>
+  </aside>
 </div>
