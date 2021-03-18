@@ -9,13 +9,17 @@ layout: default
     <p class="post-date small text-end">{{page.date | date_to_string}}</p>
   </article>
   <aside class="col-md-3">
+    <section>
     <p class="lead">Recent Posts</p>
     {% for post in site.posts %}
     <p class="post-title">
       <a href="{{ post.url }}">{{ post.title }}</a>
     </p>
     {% endfor %}
+    </section>
     <hr>
+    <section>
     {% include contact.html %}
+    </section>
   </aside>
 </div>
