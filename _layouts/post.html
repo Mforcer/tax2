@@ -7,9 +7,8 @@ layout: default
     {% if page.img %} <img class="img-fluid d-block mx-auto mb-4" src="//cdn.schlederer.com.au/img/blog/{{ page.img }}"> {% endif %}
     {{ content }}
     <p class="post-date small text-end">{{page.date | date_to_string}}</p>
-
   </article>
-  <aside id="blog-sidebar" class="col-md-3">
+  <aside class="col-md-3">
     <p class="lead">Recent Posts</p>
     {% for post in site.posts %}
     <p class="post-title">
