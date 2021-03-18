@@ -24,7 +24,7 @@ biz_email: "email@schlederer.com.au"
 
 pop-img:
 
-permalink: pretty
+permalink: none
 
 paginate: 3
 paginate_path: "/insights/:num/"
