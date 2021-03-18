@@ -12,7 +12,7 @@ There is no denying that many retail businesses have experienced significant cha
 
 There is another area of potential vulnerability for all businesses, especially those in the corporate sales space; managing the risk of being reliant on a small number of large clients.
 
-On a number of occasions, I have seen agents lose a large corporate client resulting in those agents losing a significant amount of income and being forced into administration and liquidation. Certainly not a good outcome. You don’t always have control over when your clients seek your service but you do control when and where you spend money.
+On a number of occasions, I have seen businesses lose a large corporate client resulting in the loss of a significant amount of income and being forced into administration and liquidation. Certainly not a good outcome. You don’t always have control over when your clients seek your service but you do control when and where you spend money.
 
 Any business with income reliant on a limited number of clients, and clients that have the ability to move to another supplier relatively easily, must ensure that they can operate without that income. The simple solution is to keep your overheads as flexible as possible to allow your business to scale up and down as quickly as necessary.
 
