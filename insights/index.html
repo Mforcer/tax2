@@ -21,14 +21,14 @@ lead:
       <ul id="pager" class="nav justify-content-between">
         <li class="nav-item">
           {% if paginator.previous_page %}
-          <a class="nav-link" href="/blog/{% if paginator.page <> 2 %}{{paginator.previous_page}}{% endif %}">&laquo; Previous</a>
+          <a class="nav-link" href="/insights/{% if paginator.page <> 2 %}{{paginator.previous_page}}{% endif %}">&laquo; Previous</a>
           {% else %}
           <span class="nav-link disabled">&laquo; Previous</span>
           {% endif %}
         </li>
         <li class="nav-item">
           {% if paginator.next_page %}
-          <a class="nav-link" href="/blog/{{paginator.next_page}}">Next &raquo;</a>
+          <a class="nav-link" href="/insights/{{paginator.next_page}}">Next &raquo;</a>
           {% else %}
           <span class="nav-link disabled">Next &raquo;</span>
           {% endif %}
