@@ -3,7 +3,7 @@ layout: post
 published: true
 
 title: "Calling all future leaders"
-subtitle:
+subtitle: "Insight"
 img:
 Author: "Michael Schlederer"
 ---

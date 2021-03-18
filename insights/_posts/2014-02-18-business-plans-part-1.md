@@ -3,7 +3,7 @@ layout: post
 published: true
 
 title: "Business Plans, part 1"
-subtitle:
+subtitle: "Insight"
 img: business-plans-part-1.jpg
 Author: "Michael Schlederer"
 ---
