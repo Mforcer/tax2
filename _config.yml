@@ -21,7 +21,7 @@ biz_post_code: "2001"
 biz_phone: "(02)&nbsp;9262&nbsp;2822"
 biz_email: "email@schlederer.com.au"
 
-permalink: none
+permalink: /:categories/:title:/
 
 paginate: 3
 paginate_path: "/insights/:num/"
