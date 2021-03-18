@@ -3,7 +3,7 @@ layout: post
 published: true
 
 title: "Storm Clouds Ahead"
-subtitle: "Insight"
+subtitle:
 img:
 Author: "Michael Schlederer"
 ---

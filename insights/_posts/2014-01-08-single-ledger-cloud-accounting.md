@@ -2,7 +2,7 @@
 layout: post
 
 title: "Single Ledger Cloud Accounting"
-subtitle: "Insight"
+subtitle:
 img: single-ledger-cloud-accounting.jpg
 Author: "Michael Schlederer"
 ---

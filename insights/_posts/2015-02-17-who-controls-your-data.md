@@ -3,7 +3,7 @@ layout: post
 published: false
 
 title: "Who controls your data?"
-subtitle: "Insight"
+subtitle:
 img:
 Author: "Michael Schlederer"
 ---

@@ -3,7 +3,7 @@ layout: post
 published: true
 
 title: "Choosing your Accountant"
-subtitle: "Insight"
+subtitle:
 img:
 Author: "Michael Schlederer"
 ---

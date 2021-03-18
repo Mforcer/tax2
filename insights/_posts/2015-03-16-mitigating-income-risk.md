@@ -3,7 +3,7 @@ layout: post
 published: true
 
 title: "Mitigating Income Risk"
-subtitle: "Insight"
+subtitle:
 img:
 author: "Michael Schlederer"
 ---
