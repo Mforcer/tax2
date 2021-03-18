@@ -9,6 +9,7 @@ Author: "Michael Schlederer"
 ---
 
 >Failing to plan is planning to fail
+{: .blockquote}
 
 Many new clients come to me without a formal plan, not so much for the lack of any planning but because they just don't know where to start when preparing a plan. My quick answer for them is to just start writing.
 
@@ -35,7 +36,6 @@ When will you start? When do you expect to achieve certain milestones in your bu
 **How?**
 
 How will you manage the business, juggling your limited time between the new business, family and friends. Will you operate the business concurrently with your existing work as your business builds up?
-
 
 Now just start writing. There is no correct answers and no one will be assessing your writing. Point form is fine. Key words are better than nothing. The business plan is your tool to keep yourself accountable and to help you understand your own business. You can't write a business plan if you don't understand your plan for the business.
 
