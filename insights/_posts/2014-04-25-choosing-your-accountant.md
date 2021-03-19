@@ -8,7 +8,7 @@ img:
 Author: "Michael Schlederer"
 ---
 
-I was recently asked by a prospective new client what I thought to be the most important consideration when looking for a new client. From a client's perspective, all accountants seem very similar, offering similar services. Most even charge similar fees. But there is 1 key element before all else that will determine if your engagement with your accountant will be a success or not.
+I was recently asked by a prospective new client what I thought to be the most important consideration when looking for a new accountant. From a client's perspective, all accountants seem very similar, offering similar services. Most even charge similar fees. But there is one key element before all else that will determine if your engagement with your accountant will be a success or not.
 
 Simply, you must choose your accountant by whether you can communicate with them. This is not just a matter of your accountant speaking the same language, nor just your accountant speaking in terms simple enough for you to understand. You must choose your accountant based on you feeling comfortable to contact your accountant and asking for help.
 
